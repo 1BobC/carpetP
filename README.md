@@ -1,0 +1,2 @@
+# carpetP
+First Python exercises
