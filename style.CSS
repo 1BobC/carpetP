@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: darkgrey;
+}
+h4{
+    text-align: center;
+    color: darkgray;
+}
+p{
+    text-align: left;
+    color: cadetblue;
+    font-size: 2em;
+}
+li{
+    text-align: center;
+    color: darkslategray;
+}
