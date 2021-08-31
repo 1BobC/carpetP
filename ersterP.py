@@ -15,4 +15,16 @@ bigmsg= """Line 1,
 print(bigmsg)
 
 #String operations
-print(msgb.upper())
+print(msgb.upper()   
+      
+#python functions: built in
+def say_hi():
+...     print('Hi')
+say_hi()    
+
+#python functions: created
+>>> def say_hi(name):
+...     print('Hi', name)
+...
+>>> say_hi('Erik')
+#Hi Erik
