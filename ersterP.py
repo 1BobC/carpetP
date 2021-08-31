@@ -28,3 +28,29 @@ say_hi()
 ...
 >>> say_hi('Erik')
 #Hi Erik
+
+#Variable scope
+>>> def say_yo():
+...    print("Hi", name)
+...    answer = "Hi"
+...
+>>> name = 'Erik'
+>>> say_yo()
+Hi Erik
+>>> print(answer)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'answer' is not defined
+
+#Default values and named parameters
+>>> def welcome(name='learner', location='this tutorial'):
+...     print("Hi", name, "welcome to", location)
+...
+>>> welcome()
+Hi learner welcome to this tutorial
+>>> welcome(name='John')
+Hi John welcome to this tutorial
+>>> welcome(location='this epic tutorial')
+Hi learner welcome to this epic tutorial
+>>> welcome(name='John', location='this epic tutorial')
+Hi John welcome to this epic tutorial
