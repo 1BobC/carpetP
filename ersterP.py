@@ -54,3 +54,21 @@ Hi John welcome to this tutorial
 Hi learner welcome to this epic tutorial
 >>> welcome(name='John', location='this epic tutorial')
 Hi John welcome to this epic tutorial
+
+#Booleans and operators
+#Fun simple example:
+>>> door_is_locked = True
+>>> if door_is_locked:
+...     print("Mum, open the door!")
+...
+Mum, open the door!
+>>>
+
+>>> door_is_locked = False
+>>> if door_is_locked:
+...     print("Mum, open the door!")
+... else:
+...     print("Let's go inside")
+...
+Let's go inside
+>>>_

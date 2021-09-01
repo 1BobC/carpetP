@@ -5,3 +5,4 @@ First Python exercises
 "Revised string operations"
 "Complete functions built in and constructed"
 "Change font size p to 1.5em Complete execises on basic functions"
+"Complete Booleans and comparison operators"

@@ -5,11 +5,13 @@ h1{
 h4{
     text-align: center;
     color: darkgray;
+    text-decoration: underline;
+    font-size: 1.5em;
 }
 p{
-    text-align: left;
+    text-align: center;
     color: cadetblue;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 li{
     text-align: center;
