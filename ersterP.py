@@ -72,3 +72,39 @@ Mum, open the door!
 ...
 Let's go inside
 >>>_
+
+#Python For-loop
+>>> for letter in 'Hello':
+        ...     print(letter)
+        ... 
+        H
+        e
+        l
+        l
+        o
+
+#Python for-loops and lists
+>>> mylist = [1, 2, 'Hello', ['a', 'ab'] ]
+>>> mylist[0]
+1
+>>> mylist[0] + mylist[1]
+3
+>>> mylist[2]
+'Hello'
+>>> mylist[3][0]
+'a'
+>>> for item in myList:
+      ...     print(myList)
+      ...
+      
+#Python While-loop
+>>> i = 1
+>>> while i <= 4:
+...     print(i)
+...     i = i + 1
+... 
+1
+2
+3
+4
+# press control+ c to escape infinite loops! 
