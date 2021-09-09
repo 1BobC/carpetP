@@ -108,3 +108,18 @@ Let's go inside
 3
 4
 # press control+ c to escape infinite loops! 
+
+#First Python Program
+>>> def say_hi(name):
+...     if name == '':
+...         print("You didn't enter your name!")
+...     else:
+...         print("Hi there...")
+...         for letter in name:
+...             print(letter)
+... 
+>>> name = input()
+ < enter your name at this point >
+>>> say_hi(name)
+#Great it worked!
+
