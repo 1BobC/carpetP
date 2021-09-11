@@ -9,3 +9,5 @@ First Python exercises
 "Start Python For Loop and While Loop exercises - and completed"
 "Revised for-loops Create First Python Program!"
 "Revised first program Create comments Read docstrings"
+"Will look at docstrings again as tutorial progresses Part-tutorial Classes and Objects in Python"
+"Continue with What are classes and objects in Python? Creating classes and objects in Python What Is self in Python? Creating Multiple Objects Not finished!"

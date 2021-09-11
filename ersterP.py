@@ -1,3 +1,6 @@
+#Examples below taken from pythonland tutorial and copied into terminal (to run them)
+#Have created file sekondeP to run example programs
+
 # Three ways to print a string statement.
 msg = "Hello to us"
 print(msg)
@@ -15,15 +18,15 @@ bigmsg= """Line 1,
 print(bigmsg)
 
 #String operations
-print(msgb.upper()   
+print(msgb.upper())  
       
 #python functions: built in
-def say_hi():
-...     print('Hi')
-say_hi()    
+# def say_hi():
+# ...     print('Hi')
+# say_hi()    
 
 #python functions: created
->>> def say_hi(name):
+def say_hi(name):
 ...     print('Hi', name)
 ...
 >>> say_hi('Erik')
@@ -129,4 +132,5 @@ Let's go inside
 #Docstrings: document your code with strings
 #A docstring is a string that occurs as the first statement in a module, function, class, or method definition. 
 #Such a docstring becomes the __doc__ special attribute of that object
+#Mmm... will look at this further as tutorial progresses!
 
