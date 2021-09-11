@@ -123,3 +123,10 @@ Let's go inside
 >>> say_hi(name)
 #Great it worked!
 
+#Python Comment: What It Is And How to Create
+#Use self-documenting code to reduce comments to a minimum
+
+#Docstrings: document your code with strings
+#A docstring is a string that occurs as the first statement in a module, function, class, or method definition. 
+#Such a docstring becomes the __doc__ special attribute of that object
+
