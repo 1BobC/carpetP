@@ -11,3 +11,4 @@ First Python exercises
 "Revised first program Create comments Read docstrings"
 "Will look at docstrings again as tutorial progresses Part-tutorial Classes and Objects in Python"
 "Continue with What are classes and objects in Python? Creating classes and objects in Python What Is self in Python? Creating Multiple Objects Not finished!"
+"Completed Multiple Objects Completed to Python Constructors"
