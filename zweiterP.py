@@ -66,4 +66,4 @@ class Car:
     def stop(self):
         self.speed = 0
         
-
+#Python Inheritance
