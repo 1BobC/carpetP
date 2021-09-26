@@ -12,3 +12,5 @@ First Python exercises
 "Will look at docstrings again as tutorial progresses Part-tutorial Classes and Objects in Python"
 "Continue with What are classes and objects in Python? Creating classes and objects in Python What Is self in Python? Creating Multiple Objects Not finished!"
 "Completed Multiple Objects Completed to Python Constructors"
+"Revised simple functions to get used to indentation Will have to do it again!"
+"Have looked at various python tutorials and will stick with pythonland but will save any interesting, relevant, understandable youtubes etc. Getting familiar with indents Am working through Intro knowledge about Strings Numbers Booleans Dictionaries Variables Loops Iterators and much more!"
