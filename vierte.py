@@ -132,9 +132,26 @@
 # ...
 
 #storing and using a return value
->>> def add_numbers(x, y):
-...     return x + y
-...
->>> new_number = add_numbers(3, 5)
->>> new_number
-8
+# >>> def add_numbers(x, y):
+# ...     return x + y
+# ...
+# >>> new_number = add_numbers(3, 5)
+# >>> new_number
+# 8
+
+# #arguements and their position
+# >>> def say_greeting(name, greeting):
+# ...     print(f"{greeting}, {name}.")
+# ...
+# >>> say_greeting("Hello!", "Nina")
+# Nina, Hello!.def
+
+#arguements none-default and default(keyword args)
+# No default arguments
+def say_greeting(greeting, name):
+    print(f"{greeting}, {name}.")
+
+# Default argument - greeting will always be
+# Hello, if one isn't provided.
+def say_greeting_with_default(name, greeting="Hello", punctuation="!"):
+    print(f"{greeting}, {name}{punctuation}")

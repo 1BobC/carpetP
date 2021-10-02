@@ -17,3 +17,4 @@ First Python exercises
 "Pythonland tutorials were not so easy to follow so am trying learnpython dev with NNJA Clear layout is easier to follow Will update project files with this info"
 "Complete Day 1. Intro to Python 1. Why Choose Python About Python, Conventions, Anatomy of a Python Program, 2. Basic Data Types, Variables and Types, Numbers, Strings and enjoyable so far!"
 "Completed defining functions"
+"Re-do function arguements, defaults, keywords and order of declaration!"
