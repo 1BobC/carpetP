@@ -15,3 +15,4 @@ First Python exercises
 "Revised simple functions to get used to indentation Will have to do it again!"
 "Have looked at various python tutorials and will stick with pythonland but will save any interesting, relevant, understandable youtubes etc. Getting familiar with indents Am working through Intro knowledge about Strings Numbers Booleans Dictionaries Variables Loops Iterators and much more!"
 "Pythonland tutorials were not so easy to follow so am trying learnpython dev with NNJA Clear layout is easier to follow Will update project files with this info"
+"Complete Day 1. Intro to Python 1. Why Choose Python About Python, Conventions, Anatomy of a Python Program, 2. Basic Data Types, Variables and Types, Numbers, Strings and enjoyable so far!"
