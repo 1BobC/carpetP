@@ -144,14 +144,64 @@
 # ...     print(f"{greeting}, {name}.")
 # ...
 # >>> say_greeting("Hello!", "Nina")
-# Nina, Hello!.def
+# Nina, Hello!
 
 #arguements none-default and default(keyword args)
 # No default arguments
-def say_greeting(greeting, name):
-    print(f"{greeting}, {name}.")
+# def say_greeting(greeting, name):
+#     print(f"{greeting}, {name}.")
 
-# Default argument - greeting will always be
-# Hello, if one isn't provided.
-def say_greeting_with_default(name, greeting="Hello", punctuation="!"):
-    print(f"{greeting}, {name}{punctuation}")
+# # Default argument - greeting will always be
+# # Hello, if one isn't provided.
+# def say_greeting_with_default(name, greeting="Hello", punctuation="!"):
+#     print(f"{greeting}, {name}{punctuation}")
+
+#with default arguements
+# >>> def say_greeting_with_default(name, greeting="Hello", punctuation="!"):
+# ...     print(f"{greeting}, {name}{punctuation}")
+# ...
+# >>> say_greeting_with_default("Nina")
+# Hello, Nina!
+# >>> say_greeting_with_default("Nina", "Good Day")
+# Good Day, Nina!
+
+#with default but wrong order!
+# >>> def say_greeting_bad(greeting="Hello", name):
+# ...     print("Oops, this won't work!")
+# ...
+#   File "<stdin>", line 1
+# SyntaxError: non-default argument follows default argument
+
+#MUST pass in all arguements 
+# >>> def say_greeting(name, greeting):
+# ...     print(f"{greeting}, {name}.")
+# ...
+# >>> say_greeting("Nina")
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# TypeError: say_greeting() missing 1 required positional argument: 'greeting'
+
+#If using all default (keywords) they may or may not be passed in and if passed in can be in any order.
+# >>> def create_query(language="JavaScipt", num_stars=50, sort="desc"):
+# ...     return f"language:{language} num_stars:{num_stars} sort:{sort}"
+# ...
+# >>> create_query()
+# 'language:JavaScipt num_stars:50 sort:desc'
+# >>> create_query(language="Ruby")
+# 'language:Ruby num_stars:50 sort:desc'
+# >>> create_query(num_stars=1, language="Python", sort="asc")
+# 'language:Python num_stars:1 sort:asc'
+
+#If no defaults, keywords can be used to define args that you pass in for extra clarity
+# >>> def say_greeting(name, greeting):
+# ...     print(f"{greeting}, {name}.")
+# ...
+# >>> say_greeting("Nina", "Hello")
+# Hello, Nina.
+# >>> say_greeting(name="Max", greeting="Bonjour")
+# Bonjour, Max.
+
+
+
+
+
