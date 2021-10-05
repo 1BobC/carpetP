@@ -19,3 +19,4 @@ First Python exercises
 "Completed defining functions"
 "Re-do function arguements, defaults, keywords and order of declaration!"
 "Moving on to function scope"
+"Complete functions up to Practise"

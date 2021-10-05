@@ -201,6 +201,43 @@
 # >>> say_greeting(name="Max", greeting="Bonjour")
 # Bonjour, Max.
 
+#SCOPE (variables declared) INside a function 
+# >>> def twitter_info():
+# ...     twitter_account = "nnja"
+# ...     print(f"Account inside function: {twitter_account}")
+# ...
+# >>> twitter_info()
+# Account inside function: nnja
+# >>> print(f"Account outside of function: {twitter_account}")
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# NameError: name 'twitter_account' is not defined
+
+#SCOPE (variables declared) OUTside a function 
+# >>> name = "Nina"
+# >>> print(f"Name outside of function: {name}")
+# Name outside of function: Nina
+# >>>
+# >>> def try_change_name():
+# ...     name = "Max"
+# ...     print(f"Name inside of function: {name}")
+# ...
+# >>> try_change_name()
+# Name inside of function: Max
+# >>> print(f"Name outside of function: {name}")
+# Name outside of function: Nina
+
+#SCOPE (CONSTANT variables declared)  OUTSIDE a function
+# >>> ROOT_API_URL =  "https://api.github.com"  #ok to change this constant and re-call function
+# >>> def api_search_repos_url():
+# ...     return f"{ROOT_API_URL}/search/repositories"
+# ...
+# >>> api_search_repos_url()
+# 'https://api.github.com/search/repositories'
+# >>>
+
+
+
 
 
 
