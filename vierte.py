@@ -236,6 +236,105 @@
 # 'https://api.github.com/search/repositories'
 # >>>
 
+#Now for some practise starting with a basic funtion.., 
+# >>> def add_numbers(x, y):
+# ...     return x + y
+# ... # Press Enter
+
+# >>> add_numbers(1, 2)
+# # Let's use the string formatting we learned in the last chapter
+# >>> print(f"The sum of 1 and 2 is {add_numbers(1, 2)}")
+
+#scoping..
+# >>> x = 1
+# >>> y = 2
+# >>> def add_numbers(x, y):
+# ...     print(f"Inside the function, x = {x} and y = {y}")
+# ...     return x + y
+# ...
+# >>> print(f"Outside the function, x = {x} and y = {y}")
+# >>> print(f"The sum of 5 and 6 is {add_numbers(5, 6)}")
+
+#Positional Arguments vs Keyword Arguments
+# >>> def calculate_numbers(x, y, operation="add"):
+# ...     if operation == "add":
+# ...         return x + y
+# ...     elif operation == "subtract":
+# ...         return x - y
+# ...
+# # Let's try our new function. Remember, if we don't pass the operation keyword argument, the default is "add"
+# >>> calculate_numbers(2, 3)
+# # You can pass a keyword argument as a normal positional argument
+# >>> calculate_numbers(2, 3, "subtract")
+# # You can also use the argument's keyword. This helps with readability
+# >>> calculate_numbers(2, 3, operation="subtract")
+
+#Advanced data types Lists, tuples, sets, dictionaries, mutability
+# >>> list()
+# []
+# >>> []
+# []
+# >>> type(list())
+# <class 'list'>
+# >>> type([])
+# <class 'list'>
+
+# >>> names = ["Nina", "Max", "Jane"]
+
+# >>> len(names)
+# 3
+
+# >>> names = ["Nina", "Max", "Jane"]
+# >>> names[0]
+# 'Nina'
+# >>> names[1]
+# 'Max'
+# >>> names[2]
+# 'Jane'
+
+#Indexes and Indices 
+#Updating an item in a list,  Range, Formatting (actually this means layout including a trailing comma)
+# >>> names = ["Nina", "Max", "Jane"]
+# >>> names[2] = "Floyd"
+# >>> names
+# ['Nina', 'Max', 'Floyd']
+
+#Sorting a Copy Of Your List - doesn't permanently change the list order
+# >>> lottery_numbers = [1, 4, 32423, 2, 45, 11]
+# >>> sorted(lottery_numbers)
+# [1, 2, 4, 11, 45, 32423]
+# >>> lottery_numbers
+# [1, 4, 32423, 2, 45, 11]
+# >>> sorted(lottery_numbers, reverse=True)
+# [32423, 45, 11, 4, 2, 1]
+# >>> lottery_numbers
+# [1, 4, 32423, 2, 45, 11]
+
+#Sorting the list in-place - permanently changes the list order
+# >>> lottery_numbers = [1, 4, 32423, 2, 45, 11]
+# >>> lottery_numbers.sort()
+# >>> lottery_numbers
+# [1, 2, 4, 11, 45, 32423]
+
+# >>> lottery_numbers.sort(reverse=True)
+# >>> lottery_numbers
+# [32423, 45, 11, 4, 2, 1]
+
+# >>> words = ["Umbrella", "Fox", "Apple"]
+# >>> words.sort()
+# >>> words
+# ['Apple', 'Fox', 'Umbrella']
+
+#Reverse the list in-place. Uses reverse() method. Different to reverse=True
+# >>> lottery_numbers = [1, 4, 32423, 2, 45, 11]
+# >>> lottery_numbers.reverse()
+# >>> lottery_numbers
+# [11, 45, 2, 32423, 4, 1]
+
+#Finding Methods eg:
+#dir(list)
+
+
 
 
 
