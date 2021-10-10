@@ -334,6 +334,42 @@
 #Finding Methods eg:
 #dir(list)
 
+#lists 2, (Looking for items more quickly use set or dic - later)
+# names = ["Nina", "Max", "Phillip", "Nina"]
+# >>> "Nina" in names
+# True
+# >>> "Rose" in names
+# False
+
+#Adding items
+# >>> names.append("John")
+# >>> names
+# ['Nina', 'Max', 'John']
+
+# >>> names.insert(0, "Rose")
+# >>> names
+# ['Rose', 'Nina', 'Max', 'John']
+
+# #getting help
+# >>> type(names)
+# <class 'list'>
+# >>> help(names.insert)
+
+# Help on method_descriptor:
+
+# insert(self, index, object, /)
+#     Insert object before index.
+
+# #adding a list to a list
+# >>> names = ["Nina", "Max"]
+# >>> colors = ["Red", "Blue"]
+# >>> names
+# ['Nina', 'Max']
+# >>> names.extend(colors)
+# >>> names
+# ['Nina', 'Max', 'Red', 'Blue']
+
+
 
 
 

@@ -20,6 +20,5 @@ First Python exercises
 "Re-do function arguements, defaults, keywords and order of declaration!"
 "Moving on to function scope"
 "Complete functions up to Practise"
-"Practise exercise for function scope is V clever - do again often! 
-Onto advanced data types - Lists: Indexes and Indices, Updating an item in a list,  Range, Formatting (actually this means layout 
-        including a trailing comma) Sorting a Copy Of Your List / and In Place, Finding methods" 
+"Practise exercise for function scope is V clever! Complete advanced data types - Lists: Indexes and Indices, Updating,  Range, Formatting (actually this means layout including a trailing comma) Sorting a Copy Of Your List / and In Place, Finding methods" 
+"Work on lists 2 up to,  Looking for Items, Adding items, getting help, adding a list to a list"
