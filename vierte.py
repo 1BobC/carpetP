@@ -369,8 +369,32 @@
 # >>> names
 # ['Nina', 'Max', 'Red', 'Blue']
 
+#Looking for Items - True / False above but also...
+#with error or with count
+# >>> names.index("Nina")
+# 0
+# >>> names.index("Rose")
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# ValueError: 'Rose' is not in list
 
+# >>> names.count("Nina")
+# 2
+# >>> names.count("Rose")
+# 0
 
+#Updating Items
+# >>> names = ["Nina", "Max"]
+# >>> names[0] = "Rose"
+# >>> names
+# ['Rose', 'Max']
+
+# #Take a moment to look carefully at this one!
+# >>> names = ["Nina", "Max"]
+# >>> pos = names.index("Max")
+# >>> names[pos] = "Rose"
+# >>> names
+# ['Nina', 'Rose']
 
 
 

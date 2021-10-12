@@ -22,3 +22,5 @@ First Python exercises
 "Complete functions up to Practise"
 "Practise exercise for function scope is V clever! Complete advanced data types - Lists: Indexes and Indices, Updating,  Range, Formatting (actually this means layout including a trailing comma) Sorting a Copy Of Your List / and In Place, Finding methods" 
 "Work on lists 2 up to,  Looking for Items, Adding items, getting help, adding a list to a list"
+"Looking for Items - True / False above but also...  with error or with count Updating Items"
+"Have transferred to Python for Everybody tutorial video by CodeCamp Have reached 1hr 15mins"
