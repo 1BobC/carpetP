@@ -26,3 +26,4 @@ First Python exercises
 "Have transferred to Python for Everybody tutorial video by CodeCamp Have reached 1hr 15mins"
 "Remove content erster, zweiter and dritte files and re-use for python programs from Code-camp Python for Everybody"
 "Completed Type, Reserved Words, Variables, Operators, Operator precedence, Integer division, Conversion between types, User input, Comments"
+"Complete conditional execution practise in erster file up to Multiway with elif(s)"
