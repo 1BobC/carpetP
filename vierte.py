@@ -396,6 +396,10 @@
 # >>> names
 # ['Nina', 'Rose']
 
+#user input
+# nam = input("Who are you?")
+# print("Welcome", nam)
+
 
 
 

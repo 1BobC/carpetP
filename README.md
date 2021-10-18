@@ -25,3 +25,4 @@ First Python exercises
 "Looking for Items - True / False above but also...  with error or with count Updating Items"
 "Have transferred to Python for Everybody tutorial video by CodeCamp Have reached 1hr 15mins"
 "Remove content erster, zweiter and dritte files and re-use for python programs from Code-camp Python for Everybody"
+"Completed Type, Reserved Words, Variables, Operators, Operator precedence, Integer division, Conversion between types, User input, Comments"
