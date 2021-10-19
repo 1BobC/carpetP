@@ -58,7 +58,7 @@
 # print("All done")
 
 #...and with lots of elif but an else to catch all!
-# anum = input("Please enter a number between 0 and 11,")
+# anum = input("Please enter a number between 0 and 131,")
 # x = int(anum)
 # if x < 2 :
 #     print("small")
@@ -74,3 +74,57 @@
 #     print("really biggerer!")
 # else :
 #     print("HUGE man!")
+#1:42:33
+
+#Multiway puzzle No 1 will it print?
+# anum = input("Please enter a number between 0 and 10 ish, ")
+# x = int(anum)
+# if x < 2 :
+#     print("Below 2")
+# elif x >= 2 :
+#     print("Two or more")
+# else :
+#     print("Not sure about this one!")   #this line never prints !!
+    
+#Multiway puzzle No 2 will it print?
+# anum = input("Please enter a number between 0 and 20 ish, ")
+# x = int(anum)
+# if x < 2 :
+#     print("below 2")
+# elif x < 20 :
+#     print("below 20")
+# elif x < 10 :
+#     print("below 10")                      #this line never prints !!
+# else :
+#     print("Not sure obout this one either")
+
+#The try / except Structure
+# astr = "Hello Bob"
+# try :
+#     istr = int(astr)
+# except :
+#     istr = -1               #uses the except 
+    
+# print("First", istr)
+
+# astr = '124'
+# try :
+#     istr = int(astr)        #doesn't need the except
+# except :
+#     istr = -1
+    
+# print("Second", istr)
+
+#The try / except Structure - but not good with multi line block - 
+# astr = 'Bob'
+# try :
+#     print('Hello')
+#     istr = int(astr)        #blow-up
+#     print('There')          #skips this line
+# except:
+#     istr = -1
+    
+# print('Done', istr)
+
+#try / except with user input
+#1:51:01

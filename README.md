@@ -27,3 +27,4 @@ First Python exercises
 "Remove content erster, zweiter and dritte files and re-use for python programs from Code-camp Python for Everybody"
 "Completed Type, Reserved Words, Variables, Operators, Operator precedence, Integer division, Conversion between types, User input, Comments"
 "Complete conditional execution practise in erster file up to Multiway with elif(s)"
+"Complete Multiway puzzle No 1 and No 2 (will they print?) Start the try / except Structure"
