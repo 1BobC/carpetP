@@ -126,5 +126,16 @@
     
 # print('Done', istr)
 
-#try / except with user input
+#try / except - with user input
 #1:51:01
+rawstr = input("enter a number: ")
+try :
+    ival = int(rawstr)
+except :
+    ival = -1
+    
+if ival > 0 :
+    print("you're ok!")
+else :
+    print("not a number")
+#1:52:40

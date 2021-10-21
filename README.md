@@ -28,3 +28,4 @@ First Python exercises
 "Completed Type, Reserved Words, Variables, Operators, Operator precedence, Integer division, Conversion between types, User input, Comments"
 "Complete conditional execution practise in erster file up to Multiway with elif(s)"
 "Complete Multiway puzzle No 1 and No 2 (will they print?) Start the try / except Structure"
+"Complete Start / try structures including user input. Summary so far - Comparison operators, Indentation, One-way decisions, Two-way decisions, Nested decisions, Multiway decisions (elif), Try /except to eliminate errors"
