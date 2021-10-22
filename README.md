@@ -29,3 +29,6 @@ First Python exercises
 "Complete conditional execution practise in erster file up to Multiway with elif(s)"
 "Complete Multiway puzzle No 1 and No 2 (will they print?) Start the try / except Structure"
 "Complete Start / try structures including user input. Summary so far - Comparison operators, Indentation, One-way decisions, Two-way decisions, Nested decisions, Multiway decisions (elif), Try /except to eliminate errors"
+"Start Ch 4 loops and iterations still in ersterP, first simple function and re-use"
+"Complete simple function and re-use, built in functions max and min, type conversion int and float, string." 
+"Self-build functions "

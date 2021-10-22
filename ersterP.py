@@ -128,14 +128,49 @@
 
 #try / except - with user input
 #1:51:01
-rawstr = input("enter a number: ")
-try :
-    ival = int(rawstr)
-except :
-    ival = -1
+# rawstr = input("enter a number: ")
+# try :
+#     ival = int(rawstr)
+# except :
+#     ival = -1
     
-if ival > 0 :
-    print("you're ok!")
-else :
-    print("not a number")
+# if ival > 0 :
+#     print("you're ok!")
+# else :
+#     print("not a number")
 #1:52:40
+
+#Ch 4 First simple function and re-use
+# def thing() :
+#     print("Here for...")
+#     print("... fun")
+    
+# thing()
+# print("Zippedy")
+# thing()
+
+#built-in max, min function...
+#1:59:24
+# big = max("Helloworld!")
+# print(big)
+# tiny = min("Helloworld!")   #Hello world would result in a 'blank'!
+# print(tiny)
+# print(big)
+# print(tiny)
+
+#built-in type conversion and controlling type (remember print()!!)
+# print(float(99) / 100)
+
+# i = 42
+# type(i)
+
+# f = float(i)
+# print(f)
+
+# type(f)
+
+# print(1 + 2 * float(3) / 4 -5) 
+
+#String conversion, example as try / except structure above
+
+#Self-build functions 2:05:00
