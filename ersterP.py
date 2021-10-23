@@ -174,3 +174,51 @@
 #String conversion, example as try / except structure above
 
 #Self-build functions 2:05:00
+# x = 5
+# print("Hello")
+
+# def print_lyrics():
+#     print("I'm a lumberjack and I'm ok.")
+#     print("I sleep all night and I work all day.")
+    
+# print("Yo!")
+# print_lyrics()
+# x = x + 2
+# print(x)
+
+#Arguement / Parameter (s)
+# def greet(lang):
+#     if lang == 'es':
+#         print('Hola')
+#     elif  lang == 'fr':
+#         print('Bonjour')
+#     else:
+#         print('Hello')
+        
+# greet('fr')
+# greet('eng')
+# greet('es')
+
+#Return values
+# def greet():
+#     return("Hello")
+
+# print(greet(), "Glenn")
+# print(greet(), "Sally")
+# 2:11:17
+
+#Return + fruitful
+# def greet(lang):
+#     if lang == 'es':
+#         return 'Hola'
+#     elif  lang == 'fr':
+#         return 'Bonjour'
+#     else:
+#         return 'Hello'
+    
+# print(greet('en'), "Geoffrey.")
+# print(greet('es'), "Nico")
+# print(greet('fr'), "Francoise")
+
+#Arguements, Parameters and Results using max function
+#Multiple Arguements

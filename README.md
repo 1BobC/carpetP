@@ -31,4 +31,4 @@ First Python exercises
 "Complete Start / try structures including user input. Summary so far - Comparison operators, Indentation, One-way decisions, Two-way decisions, Nested decisions, Multiway decisions (elif), Try /except to eliminate errors"
 "Start Ch 4 loops and iterations still in ersterP, first simple function and re-use"
 "Complete simple function and re-use, built in functions max and min, type conversion int and float, string." 
-"Self-build functions "
+"Complete Self-build functions, Arguement / Parameter (s). Return values, Return + fruitful, Arguements, Parameters and Results using max function "
