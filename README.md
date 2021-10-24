@@ -32,3 +32,4 @@ First Python exercises
 "Start Ch 4 loops and iterations still in ersterP, first simple function and re-use"
 "Complete simple function and re-use, built in functions max and min, type conversion int and float, string." 
 "Complete Self-build functions, Arguement / Parameter (s). Return values, Return + fruitful, Arguements, Parameters and Results using max function "
+"Complete Multiple arguements See function summary in index"

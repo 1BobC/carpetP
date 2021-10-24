@@ -221,4 +221,12 @@
 # print(greet('fr'), "Francoise")
 
 #Arguements, Parameters and Results using max function
-#Multiple Arguements
+#Multiple Arguements 2:13:38
+# def add_three(a, b, c):
+#     added = a + b + c
+#     return added
+
+# x = add_three(10, 34)
+# print(x)
+
+#
