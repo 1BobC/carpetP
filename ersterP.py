@@ -257,4 +257,39 @@
 #     print(line)
 # print('Done!')
 
+#Indefinite loops that are not so easy to see / control! 2:22;40
+#First look at Definite loops (different to the Blastoff above)
+# for i in[5, 4, 3, 2, 1] :
+#     print(i)
+# print("Blastoff!")
 
+#Now look at Definite loops with strings
+# friends = ["Ben", "Shona", "Finn", "Freya"]
+# for friend in friends :                       #in is a V useful command
+#     print("Happy Halloween: ", friend)
+# print("Done!")
+
+#Next Loop idioms - patterns for Smart Loops
+#looping through a definite set
+# print("Before")
+# for thing in [9, 14, 22, 81, 77] :
+#     print(thing)
+# print("After")
+
+#OK how do computers eg pick the highest number from numbers presented singly?
+#2:38:00
+#I have modified the original code  by adding the line print(the_num) following the array declaration
+#and changing the second print command (largest_no_sofar, the_num)
+#because that version did not print out all array numbers
+
+# largest_no_sofar = -1 
+# print("Before ", largest_no_sofar)
+# for the_num in [8, 14, 3, 88, 27, 109, 45] :
+#     print(the_num)
+#     if the_num > largest_no_sofar :
+#         largest_no_sofar = the_num
+#         print("largest so far", largest_no_sofar)
+        
+# print("After ", largest_no_sofar)
+    
+#move to file zweiterP for More Loop Patterns
