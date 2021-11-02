@@ -282,14 +282,14 @@
 #and changing the second print command (largest_no_sofar, the_num)
 #because that version did not print out all array numbers
 
-# largest_no_sofar = -1 
-# print("Before ", largest_no_sofar)
-# for the_num in [8, 14, 3, 88, 27, 109, 45] :
+largest_no_sofar = -1 
+print("Before ", largest_no_sofar)
+for the_num in [8, 14, 3, 88, 27, 109, 45] :
 #     print(the_num)
-#     if the_num > largest_no_sofar :
-#         largest_no_sofar = the_num
-#         print("largest so far", largest_no_sofar)
+    if the_num > largest_no_sofar :
+         largest_no_sofar = the_num
+    print("largest so far", largest_no_sofar, the_num)  #WOW - indentation!!! remember this!!!
         
-# print("After ", largest_no_sofar)
+print("After ", largest_no_sofar)
     
 #move to file zweiterP for More Loop Patterns

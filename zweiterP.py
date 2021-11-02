@@ -18,13 +18,40 @@
 # print("zork, After: ", zork)
 
 #Finding the average
-county = 0
-summer = 0
-print("Before", county, summer)
-for valve in [18, 32, 57, 9, 3, 89, 107, 203] :
-    county = county + 1
-    summer = summer + valve
-    print("iteration:", county,"running total:", summer, "array value:", valve, "running average :", summer / county)
-print("After", county, summer, "final average:", summer / county)
+# county = 0
+# summer = 0
+# print("Before", county, summer)
+# for valve in [18, 32, 57, 9, 3, 89, 107, 203] :
+#     county = county + 1
+#     summer = summer + valve
+#     print("iteration:", county,"running total:", summer, "array value:", valve, "running average :", summer / county)
+# print("After", county, summer, "final average:", summer / county)
 
-#2:44:35 Filtering in loops
+#2:44:35 Filtering loops with an if statement
+# print("Before")
+# for value in [20, 19, 21, 18, 22, 17, 23, 16, 24, 15, 25] :
+#     print("The array value: ", value)
+#     if value > 20 :
+#         print("Filtered value: ", value)
+# print("After")
+
+#Search in loops with a Boolean statement
+# found = False
+# print("Before", found)
+# for value in [20, 19, 21, 18, 22, 17, 23, 16, 1000, 24, 15, 25] :
+#     if value == 1000 :
+#         found = True
+#     print(found, value)
+# print("After", found)
+
+#continue at 2:50:00
+#Discussion on finding smallest number introduces the use of None and is
+smallest = None
+print("Before")
+for value in [20, 19, 21, 18, 22, 17, 23, 16, 1000, 24, 15, 25] :
+    if smallest is None :
+        smallest = value
+    elif value < smallest :
+        smallest = value
+    print(smallest, value)          #YEAH - indentation!!!
+print("After ", smallest)
