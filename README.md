@@ -37,3 +37,4 @@ First Python exercises
 "First look at Definite loops and those with strings  - patterns for Smart Loops - picking the highest number - INDENTATION!!"
 "Move to file zweiterP for More Loop Patterns Counting in a Loop, Summing in a loop, Finding the average"
 "Complete Filtering loops with an if statement, Search in loops with a Boolean statement, Introduce the use of None and is - INDENTATION!!"
+"Iteration summary - While loops (indefinite), For loops (Definite), Infinite loops, Iteration variables, Using break, Loop idioms, Using continue, Largest or smallest, None constants and variables"
