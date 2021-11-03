@@ -46,12 +46,14 @@
 
 #continue at 2:50:00
 #Discussion on finding smallest number introduces the use of None and is
-smallest = None
-print("Before")
-for value in [20, 19, 21, 18, 22, 17, 23, 16, 1000, 24, 15, 25] :
-    if smallest is None :
-        smallest = value
-    elif value < smallest :
-        smallest = value
-    print(smallest, value)          #YEAH - indentation!!!
-print("After ", smallest)
+# smallest = None                   #could be used in finding largest number
+# print("Before")
+# for value in [20, 19, 21, 18, 22, 17, 23, 16, 1000, 24, 15, 25] :
+#     if smallest is None :
+#         smallest = value
+#     elif value < smallest :
+#         smallest = value
+#     print(smallest, value)          #YEAH - indentation!!!
+# print("After ", smallest)
+
+#
