@@ -104,15 +104,57 @@
 #Mmm...geting lost but OK now, proceed from 3:13:34 
 
 #String comparison - clever illustration
-word = input("Please enter the name of a fruit (hint - banana!")
-if word == "banana" :
-    print("All right, bananas.")
+# word = input("Please enter the name of a fruit (hint - banana!")
+# if word == "banana" :
+#     print("All right, bananas.")
 
-if word < "banana" :
-    print("Your word," + word + ", comes before banana.")
-elif word > "banana" :
-    print("your word," + word + ", comes after banana.")
-else :
-    print("All right, bananas.")
+# if word < "banana" :
+#     print("Your word," + word + ", comes before banana.")
+# elif word > "banana" :
+#     print("your word," + word + ", comes after banana.")
+# else :
+#     print("All right, bananas.")
 
-#String library start 3:15:28
+#String library method calls create a new string, original remains unchanged    start 3:15:28
+# greet = "Hello, Bob"
+# zap = greet.lower()
+# print(zap)
+# print(greet)
+
+#Searching a string for a substring
+# fruit = "banana"
+# pos = fruit.find("na")
+# print("The position of na is: ", pos)
+# aa = fruit.find("z")
+# print("The position of aa is: ", aa)
+
+#Search and Replace - super useful! as in a wordprocessor
+# greet = "Bob and Harry and Phil and Thomas and Hilda and Phillomena"
+# nstr = greet.replace("and", "pays")
+# print(nstr)
+
+# nstr = nstr.replace("a", "Z")
+# print(nstr)
+
+# nstr = nstr.replace("Z", "W")   
+# nstr = greet.replace("a", "Q")     
+# print(nstr)
+
+#Stripping White space 3:20:34
+greet = '      some white space here              ' 
+print(greet)
+
+lesserleft = greet.lstrip()
+print(lesserleft)
+
+lesserright = greet.rstrip()
+print(lesserright)
+
+lesserboth = greet.strip()
+print(lesserboth)
+
+#Prefixes - startswith Boolean
+line = "Please etc etc"
+line.startswith("Please")
+#3:22:16
+

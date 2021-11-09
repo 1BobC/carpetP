@@ -38,7 +38,5 @@ First Python exercises
 "Move to file zweiterP for More Loop Patterns Counting in a Loop, Summing in a loop, Finding the average"
 "Complete Filtering loops with an if statement, Search in loops with a Boolean statement, Introduce the use of None and is - INDENTATION!!"
 "Iteration summary - While loops (indefinite), For loops (Definite), Infinite loops, Iteration variables, Using break, Loop idioms, Using continue, Largest or smallest, None constants and variables"
-"Ch 6 Strings, Looking inside strings - Looping through Strings with while and for, More about inand in is great!
- More things with strings - Slicing, plus variations on what can be ommitted [:2] etc,
- normal string concatanation does not create spaces, you have to add + quottn marks +s, in can be used as a logical operator which can be used in an if statement, String comparison - clever illustration"
- 
+"Ch 6 Strings, Looking inside strings - Looping, More about in and in is great! More things with strings - Slicing, plus variations on what can be ommitted [:2] etc, normal string concatanation does not create spaces, you have to add + quottn marks +s, in can be used as a logical operator which can be used in an if statement, String comparison - clever illustration"
+"Completet exercises String library method calls create a new string, original remains unchanged, Searching a string for a substring, Search and Replace - super useful! as in a wordprocessor, Stripping White space, Prefixes - startswith Boolean "
