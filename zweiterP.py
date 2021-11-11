@@ -141,20 +141,41 @@
 # print(nstr)
 
 #Stripping White space 3:20:34
-greet = '      some white space here              ' 
-print(greet)
+# greet = '      some white space here              ' 
+# print(greet)
 
-lesserleft = greet.lstrip()
-print(lesserleft)
+# lesserleft = greet.lstrip()
+# print(lesserleft)
 
-lesserright = greet.rstrip()
-print(lesserright)
+# lesserright = greet.rstrip()
+# print(lesserright)
 
-lesserboth = greet.strip()
-print(lesserboth)
+# lesserboth = greet.strip()
+# print(lesserboth)
 
 #Prefixes - startswith Boolean
-line = "Please etc etc"
-line.startswith("Please")
-#3:22:16
+# line = "Please etc etc"
+# stline = line.startswith("Please")
+# print(line)
+# print(stline)
+# stline2 = line.startswith("true")
+# print(stline2)
+
+#Parsing and extracting  3:22:22    
+#Do these again and invent a couple of others - they need thinking about but are powerful
+# data = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
+# atpos = data.find('S')
+# print(atpos)
+
+# spos = data.find('8', atpos)
+# print(spos)
+
+# host = data[atpos+1 : spos]
+# print(host)
+# datime = data[atpos : spos+1]
+# print(datime)
+#Have  played with the code and understand
+
+#NB in python3 all strings are Unicode ie understands non latin characters- ok!
+
 
