@@ -42,3 +42,4 @@ First Python exercises
 "Completet exercises String library method calls create a new string, original remains unchanged, Searching a string for a substring, Search and Replace - super useful! as in a wordprocessor, Stripping White space, Prefixes - startswith Boolean "
 "OK with Parsing and extracting NB in python3 all strings are Unicode ie understands non latin characters - ok!"
 "Strings summary - String type, String Operations, Read convert, String library, Indexing strings, String comparisons, Slicing strings, Searching in strings, Looping through strings with while and for, Stripping white space, Concatanating strings with + and [] "
+"Move onto dritteP for Ch 7 Reading files and then using previous chapter techniques, opening files, fhandle, newline character, File processing, fhandle as a sequence "

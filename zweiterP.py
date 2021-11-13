@@ -178,4 +178,6 @@
 
 #NB in python3 all strings are Unicode ie understands non latin characters- ok!
 
+#Move onto dritteP for Ch 7 using these techniques 
+
 
