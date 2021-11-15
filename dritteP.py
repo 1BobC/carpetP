@@ -1,4 +1,5 @@
 #This file will be re-used for python programs from Code-camp Python for Everybody
+
 #3:20:00 ish Ch 7 Reading files, opening files, fhandle, newline character, File processing
 #fhandle as a sequence using a for loop to iterate through the sequence (NB a sequence is an oredered set)
 #eg (elegance!) xfile = open('mbox.text')
@@ -28,15 +29,40 @@
 
 # print("Input at line 20 is:", inp[:20])
 
-#Searching through a file with if in the for loop
+#Searching through a file with if in the for loop 1st way
 # fhand = open('mbox-short.txt')
 # for line in fhand :
 #     line = line.rstrip()   #the print statement adds a \n, hence the blank lines between Froms, fix this (no blank lines)
 #     if line.startswith("From") :
 #         print(line)
 
-#Skipping lines with continue 3:43:23
+#Skipping lines with continue 3:43:23 Nice reverse two step. Read carefully! 2nd way
+# fhand = open('mbox-short.txt')
+# for line in fhand :
+#     line = line.rstrip()        #so far the same as above
+#     if not line.startswith('From:') :
+#         continue
+#     print(line)
+    
+#and another using in to select lines   3rd way
+# fhand = open('mbox-short.txt')
+# for line in fhand :
+#     line = line.rstrip()
+#     if not '@uct.ac.za' in line :   #see the difference?
+#         continue
+#     print(line)
+        
+#prompt file name as input
+# fname = input("Enter the filename:   ")
+# fhand = open(fname)
+# count = 0
+# for line in fhand :
+#     if line.startswith('Subject: ') :
+#         count = count + 1
+# print("There are", count, "subject lines in", fname)    
 
+#Bad file names start 3:46:19
+             
 
 
 
