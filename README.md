@@ -44,4 +44,4 @@ First Python exercises
 "Strings summary - String type, String Operations, Read convert, String library, Indexing strings, String comparisons, Slicing strings, Searching in strings, Looping through strings with while and for, Stripping white space, Concatanating strings with + and [] "
 "Move onto dritteP for Ch 7 Reading files and then using previous chapter techniques, opening files, fhandle, newline character, File processing, fhandle as a sequence"
 "Complete line count, startswith, length, Searching through a file with if in the for loop and stripping out blank lines"
-"2nd way - Skipping lines with continue 3rd way - using in to select lines, prompt file name as input"
+"2nd way - Skipping lines with continue 3rd way - using in to select lines, prompt file name as input - Files Summary - Secondary storage, Searching for files, Opening files fhand, Reading file names, File structure \n, Dealing with BAD FILES, Reading files line by line with a loop"

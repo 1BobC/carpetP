@@ -57,11 +57,25 @@
 # fhand = open(fname)
 # count = 0
 # for line in fhand :
-#     if line.startswith('Subject: ') :
+#     if line.startswith('From: ') :
 #         count = count + 1
-# print("There are", count, "subject lines in", fname)    
+# print("There are", count, "'From:' lines in", fname)    
 
 #Bad file names start 3:46:19
+# fname = input("Enter the file name: ")
+# try :
+#     fhand = open(fname)
+# except :
+#     print("File name", fname, "cannot be opened!")
+#     quit()
+    
+# count = 0
+# for line in fhand :
+#     if line.startswith("Subject:") :
+#         count = count + 1
+# print("There are", count, "'Subject:' lines in", fname)
+
+#Files Summary - Secondary storage, Searching for files, Opening files fhand, Reading file names, File structure \n, Dealing with BAD FILES, Reading files line by line with a loop.
              
 
 
