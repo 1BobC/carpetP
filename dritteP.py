@@ -66,7 +66,7 @@
 # try :
 #     fhand = open(fname)
 # except :
-#     print("File name", fname, "cannot be opened!")
+#     print("File name", fname, "cannot be opened! Best to check the file name.")
 #     quit()
     
 # count = 0
@@ -76,8 +76,49 @@
 # print("There are", count, "'Subject:' lines in", fname)
 
 #Files Summary - Secondary storage, Searching for files, Opening files fhand, Reading file names, File structure \n, Dealing with BAD FILES, Reading files line by line with a loop.
-             
 
+#3:49:00  Ch8  Lists (Data) - Programming Algorithms V Data Structures         
+#Variables hold one value which may be changed, a Collection / List variable holds many values usually in square brackets.
+#a collection / list may contain any python object or be empty!
+#Remember:
+# for i in [5, 4, 3, 2, 1] :
+#     print(i)
+# print("Blast off!")
 
+#Also be aware of the names of the variables, not necessarily descriptive - see below:
+#Lists and definite loops 3:53:00
+# friends = ['Ben', 'Shona', 'Freya']
+# for friend in friends :
+#     print("Happy New Year:", friend)
+# print("Done!")
 
+# z = ['June', 'Bob', 'Abraham']
+# for x in z :
+#     print("Happy Christmas:", x)
+# print('Finished!')
 
+#Looking inside lists 3:54:11
+# friends = ['Harry', 'Megan', 'Charles']
+
+#Lists are mutable, strings are not - watch out!
+# fruit = 'BANANA'
+# #fruit[0] = 'b'
+# x = fruit.lower()
+# print(x)
+
+# lotto = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print(lotto)
+# lotto[2] = 31
+# print(lotto)
+# lotto[5] = 61
+# print(lotto)
+# #we used the index operator eg lotto[2] = 31
+
+# #How long is a list? how many elements? - String list or object list
+# greet = "Hello, Bob, June, Kelly, ShonaR, ShonaC"
+# print(len(greet))
+
+# nums = [21, 23, 34, 45, 'Fred', 56, 67, 'Jim', 78, 89]
+# print(len(nums))
+
+#3:56:56 Using the range function

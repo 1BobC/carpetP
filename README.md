@@ -45,3 +45,4 @@ First Python exercises
 "Move onto dritteP for Ch 7 Reading files and then using previous chapter techniques, opening files, fhandle, newline character, File processing, fhandle as a sequence"
 "Complete line count, startswith, length, Searching through a file with if in the for loop and stripping out blank lines"
 "2nd way - Skipping lines with continue 3rd way - using in to select lines, prompt file name as input - Files Summary - Secondary storage, Searching for files, Opening files fhand, Reading file names, File structure \n, Dealing with BAD FILES, Reading files line by line with a loop"
+"Ch8  Lists (Data) - Programming Algorithms V Data Structures, Lists and definite loops, Looking inside lists, Lists are mutable, strings are not - watch out! How long is a list? how many elements? - String list or object list"
