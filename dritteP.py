@@ -122,3 +122,70 @@
 # print(len(nums))
 
 #3:56:56 Using the range function
+# print(range(4))
+# for i in range(4) :
+#     print(i)
+    
+#friends = ['Harry', 'Sally', 'Harry']
+# print(len(friends))
+# print(range(len(friends)))
+
+# for i in range(len(friends)) :
+#     print(i)
+
+#Two loops using range
+# friends = ['Harry', 'Sally', 'Harry']
+
+# for friend in friends :
+#     print("Happy New  Year", friend)
+    
+# for i in range(len(friends)) :
+#     friend = friends[i]
+#     print("Happy This Year", friend)
+    
+#3:59:46 Loop operations
+#Concatanating lists using +
+# a = [10, 20, 'drink', 40, 50]
+# b = ['gargle', 70, 80, 90]
+# c = a + b
+# print(c)
+# print(a)
+
+#List Slicing with :
+# t = [23, 'handy', 45, 'werde', 98, 12, 'Handel']
+# print(t[1:4])
+# print(t[:2])
+# print(t[:])
+
+#List methods
+# x = list()
+# print(type(x))
+# print(dir(x))
+
+#4:02:37 Building a list from scratch
+# stuff = list()
+# stuff.append('Granta146')
+# stuff.append(146)
+# print(stuff)
+# stuff.append("Fruit Cake")
+# print(stuff)
+ 
+#Two logical operators (True / False) to check what is in a list
+# some = [11, 22, 33, 44, 55, 66, 77]
+# print(9 in some)
+# print(33 in some)friends = ['Garth', 'Vader', 'Scotty']
+# print(8 not in some)
+
+#Lists are in order - here's some list play - sort, append, insert!
+# friends = ['Garth', 'Vader', 'Scotty']
+# print(friends)
+# friends.sort()      #changes the list order 
+# print(friends)
+# print(friends[2])
+# friends.insert(1, 'Harry')      #OK google search needed!!
+# print(friends)
+# friends.append('Jacob')
+# print(friends)
+# print('Jeremy' not in friends)
+
+#4:05:07 Built in functions and lists:
