@@ -47,3 +47,4 @@ First Python exercises
 "2nd way - Skipping lines with continue 3rd way - using in to select lines, prompt file name as input - Files Summary - Secondary storage, Searching for files, Opening files fhand, Reading file names, File structure \n, Dealing with BAD FILES, Reading files line by line with a loop"
 "Ch8  Lists (Data) - Programming Algorithms V Data Structures, Lists and definite loops, Looking inside lists, Lists are mutable, strings are not - watch out! How long is a list? how many elements? - String list or object list"
 "Using the range function, Two loops with range, Loop operations, Concatanating lists using +, List methods, Building a list from scratch Append, insert, Two logical operators (True / False) to check what is in a list Lists are in order - here's some list play - sort, append, insert, in, not in!"
+"Built in  list functions:  print | dir | list name ||"

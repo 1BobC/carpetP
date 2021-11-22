@@ -177,10 +177,10 @@
 # print(8 not in some)
 
 #Lists are in order - here's some list play - sort, append, insert!
-# friends = ['Garth', 'Vader', 'Scotty']
-# print(friends)
+friends = ['Garth', 'Vader', 'Scotty']
+print(friends)
 # friends.sort()      #changes the list order 
-# print(friends)
+# print(friends)[
 # print(friends[2])
 # friends.insert(1, 'Harry')      #OK google search needed!!
 # print(friends)
@@ -188,4 +188,9 @@
 # print(friends)
 # print('Jeremy' not in friends)
 
-#4:05:07 Built in functions and lists:
+#4:05:07 Built in  list functions:
+#print(dir(friends))
+print(friends[1])
+friends.sort()
+print(friends[2])
+print(friends)
