@@ -177,8 +177,8 @@
 # print(8 not in some)
 
 #Lists are in order - here's some list play - sort, append, insert!
-friends = ['Garth', 'Vader', 'Scotty']
-print(friends)
+# friends = ['Garth', 'Vader', 'Scotty']
+# print(friends)
 # friends.sort()      #changes the list order 
 # print(friends)[
 # print(friends[2])
@@ -190,7 +190,37 @@ print(friends)
 
 #4:05:07 Built in  list functions:
 #print(dir(friends))
-print(friends[1])
-friends.sort()
-print(friends[2])
-print(friends)
+# print(friends[1])
+# friends.sort()
+# print(friends[2])
+# print(friends)
+
+#4:06:07 more built in function to find average of inputs
+#Average 1:
+# total = 0
+# count = 0
+# while True :
+#     inp = input("Enter a number: ")
+    
+    
+#     if inp == "done" :  #note - inp not input!
+#         break 
+#     value  = float(inp)
+#     total = total + value
+#     count = count + 1
+    
+# average = total / count
+# print("Average is: ", average)
+
+#Average 2:
+# numlist = list()
+# while True :
+#     inp = input("Enter a number:  ")
+#     if inp == "done" : break
+#     value = float(inp)
+#     numlist.append(value)
+    
+# average = sum(numlist) / len(numlist)
+# print("Average is: ", average)
+
+#Summary - how strings and lists are related (!)
