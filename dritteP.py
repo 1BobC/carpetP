@@ -223,4 +223,34 @@
 # average = sum(numlist) / len(numlist)
 # print("Average is: ", average)
 
-#Summary - how strings and lists are related (!)
+#4:09:07 Summary - how strings and lists are related (!)
+#The Split function - Strings and Lists yeah!
+#See also find and slice - mmmm...
+# abc = "With three words"
+# stuff = abc.split()
+# print(stuff)
+# print(len(stuff))
+# print(stuff[1])
+
+# #and more from split on...
+# print(stuff)
+# for w in stuff :
+#     print(w)
+
+#Looking closer at spaces and other places to split
+# line = "A lot         of       spaces"  #split equalises the spaces...
+# etc = line.split(' ')       #also try with no delimiter specified
+# print(etc)
+# print(len(etc))
+# #now with semicolons
+# line = "semicolons;instead;of;spaces"
+# thing = line.split()
+# print(thing)
+# print(len(thing))
+# thing = line.split(';')
+# print(thing)
+# print(len(thing))
+
+#04:13:55 digging deeper eg...
+    
+
