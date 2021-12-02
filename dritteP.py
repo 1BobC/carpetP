@@ -252,5 +252,27 @@
 # print(len(thing))
 
 #04:13:55 digging deeper eg...
+#eg. fom mbox-short.txt From stephen.mquard@uct.ac.za Sat Jan 5 09:14:16 2008 
+# fhand = open('mbox-short.txt')
+# for line in fhand :
+#     line = line.rstrip()
+#     if not line.startswith('From ') : continue
+#     words = line.split()
+#     print(words[2])
     
+#split by spaces is:
+# line = 'From stephen.mquard@uct.ac.za Sat Jan 5 09:14:16 2008'
+# words = line.split()
+# print(words)
+
+#Ok now for the Double Split ie split once then split a bit of the split!!
+line = 'From stephen.mquard@uct.ac.za Sat Jan 5 09:14:16 2008'
+words = line.split()
+email = words[1]    
+print(email)        #stephen.mquard@uct.ac.za 
+pieces = email.split('@')
+print(pieces)
+print(pieces[0])
+print(pieces[1])
+#List Summary and move on to data structures
 

@@ -48,4 +48,5 @@ First Python exercises
 "Ch8  Lists (Data) - Programming Algorithms V Data Structures, Lists and definite loops, Looking inside lists, Lists are mutable, strings are not - watch out! How long is a list? how many elements? - String list or object list"
 "Using the range function, Two loops with range, Loop operations, Concatanating lists using +, List methods, Building a list from scratch Append, insert, Two logical operators (True / False) to check what is in a list Lists are in order - here's some list play - sort, append, insert, in, not in!"
 "Built in  list functions:  print | dir | list name ||, finding the average,"
-"Summary of how strings and lists are related, The Split function  - Strings and Lists yeah! (See also find and slice), Looking closer at spaces and other places to split"
+"Summary of how strings and lists are related, The Split function  - Strings and Lists yeah! (See also find and slice), Looking c loser at spaces and other places to split"
+"Ok now for the Double Split ie split once then split a bit of the split!!   LIST SUMMARY - concept of a collection, lists and definite loops, indexing and lookup, list mutability, functions: len, max, min, sum, slicing lists, list methods: append, remove, sorting lists, splitting strings into lists of words, using split to parse strings "
