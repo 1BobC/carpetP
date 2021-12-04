@@ -275,4 +275,6 @@ print(pieces)
 print(pieces[0])
 print(pieces[1])
 #List Summary and move on to data structures
+#4:17:56 The Guardian Pattern - when I find the exercise files! See file dow.py 
 
+#4:29:01 Back to dritte.py for Ch 8 Dictionaries
