@@ -266,15 +266,102 @@
 # print(words)
 
 #Ok now for the Double Split ie split once then split a bit of the split!!
-line = 'From stephen.mquard@uct.ac.za Sat Jan 5 09:14:16 2008'
-words = line.split()
-email = words[1]    
-print(email)        #stephen.mquard@uct.ac.za 
-pieces = email.split('@')
-print(pieces)
-print(pieces[0])
-print(pieces[1])
+# line = 'From stephen.mquard@uct.ac.za Sat Jan 5 09:14:16 2008'
+# words = line.split()
+# email = words[1]    
+# print(email)        #stephen.mquard@uct.ac.za 
+# pieces = email.split('@')
+# print(pieces)
+# print(pieces[0])
+# print(pieces[1])
 #List Summary and move on to data structures
 #4:17:56 The Guardian Pattern - when I find the exercise files! See file dow.py 
 
-#4:29:01 Back to dritte.py for Ch 8 Dictionaries
+#4:29:01 Back to dritte.py for Ch 9 Dictionaries
+#Create an empty dictionary and add-to
+# purse = dict()
+# purse['money'] = 12
+# purse['candy'] = 3
+# purse['tissues'] = 75
+# print(purse)
+# print(purse['candy'])
+# purse['candy'] = purse['candy'] + 2
+# print(purse)
+
+#4:34:50  Compare Lists and Dictionaries
+# lst = list()
+# lst.append(21)
+# lst.append(183)
+# print(lst)
+# lst[0] = 23
+# print(lst)
+
+# ddd = dict()
+# ddd['age'] = 23
+# ddd['course'] = 128
+# ddd['semester'] = 3
+# print(ddd)
+# ddd['age'] = 21
+# print(ddd)
+# print(ddd['course'])
+
+#Create a Dictionary with Dictionary literals (curly braces)
+# jjj = {'Finn' : 5, 'Freya' : 3.5, 'Ben' : 40}
+# print(jjj)
+# ttt = {}
+# print(ttt)      #empty Dictonary
+
+#04:36:38 Counting for histograms
+# ccc = dict()
+# ccc['kelly'] = 2
+# ccc['shona'] = 5
+# ccc['june'] = 1
+# print(ccc)
+# ccc['june'] = ccc['june'] + 10
+# print(ccc)
+# 'bob' in ccc            #false but didn't get it to print
+
+#method 1 to check if key in dic and adding if not
+# counts = dict()
+# names = ['k', 'a', 'a', 'g', 'e', 'c','g', 'a', 'b', 'c', 'b', 'e', 'e', 'g', 'g', 'k', 'g', 'g' ]
+# for  name in names :
+#     if name not in counts :
+#         counts[name] = 1
+#     else :
+#         counts[name] = counts[name] + 1
+# print(counts)
+#4:40:ish
+
+#method 2 introducing --- .get() to check if key in dic and adding if not
+# if name in counts :
+#     x = counts[name]
+# else :
+#     x = 0
+    
+#x = counts.get(name, 0) --- this line replaces the previous four lines 
+
+#4:44:22    - Simplified counting -
+#NB - use get,  provide default value of 0 when key is not in the dic, and add 1 !!!
+# counts = dict()
+# names = ['k', 'a', 'a', 'g', 'e', 'c','g', 'a', 'b', 'c', 'b', 'e', 'e', 'g', 'g', 'k', 'g', 'g', 'a']
+# for  name in names :
+#     counts[name] = counts.get(name, 0) + 1
+# print(counts)  
+
+#Counting words in text
+#Split the text into words, loop through the words and use a dic to count each word independently
+#counts = dict()
+#print('Enter a line of text: ')
+#line = input("")
+#words = line.split() 
+#print('Words: ', words)
+
+#print('Counting...')
+#for word in words :
+#    counts[word] = counts.get(word, 0) + 1
+#print('Counts: ', counts)
+
+#
+  
+
+

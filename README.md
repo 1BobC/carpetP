@@ -50,4 +50,5 @@ First Python exercises
 "Built in  list functions:  print | dir | list name ||, finding the average,"
 "Summary of how strings and lists are related, The Split function  - Strings and Lists yeah! (See also find and slice), Looking c loser at spaces and other places to split"
 "Ok now for the Double Split ie split once then split a bit of the split!!   LIST SUMMARY - concept of a collection, lists and definite loops, indexing and lookup, list mutability, functions: len, max, min, sum, slicing lists, list methods: append, remove, sorting lists, splitting strings into lists of words, using split to parse strings "
-"Move on to data structures, The Guardian Pattern - when I find the exercise files! See file dow.py Back to dritte.py for Ch 8 Dictionaries"
+"Move on to data structures, The Guardian Pattern - when I find the exercise files! See file dow.py Back to dritte.py for Ch 9 Dictionaries"
+"Ch 9 Dictionaries, Comparing Lists and Dictionaries, comparing, creating, Counting for histograms, Counting words in text"
