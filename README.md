@@ -52,3 +52,4 @@ First Python exercises
 "Ok now for the Double Split ie split once then split a bit of the split!!   LIST SUMMARY - concept of a collection, lists and definite loops, indexing and lookup, list mutability, functions: len, max, min, sum, slicing lists, list methods: append, remove, sorting lists, splitting strings into lists of words, using split to parse strings "
 "Move on to data structures, The Guardian Pattern - when I find the exercise files! See file dow.py Back to dritte.py for Ch 9 Dictionaries"
 "Ch 9 Dictionaries, Comparing Lists and Dictionaries, comparing, creating, Counting for histograms, Counting words in text"
+"Summary Ch9 Dictionaries, what is a collection?, hashing and lack of order, lists v dictionaries, writing dictionary loops, dictonary constants, sneek-peek tuples, the most common word, sorting dictionaries, using the get() method."

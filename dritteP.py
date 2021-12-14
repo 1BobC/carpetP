@@ -361,7 +361,40 @@
 #    counts[word] = counts.get(word, 0) + 1
 #print('Counts: ', counts)
 
-#
-  
+#Definite loops and dictionaries
+#4:48:44 start simple:
+# counts = {'Finn' : 5, 'Freya' : 3.5, 'Ben' : 40, 'candy' : 13, 'glasses' : 24, 'tables' : 6, 'chairs' : 6}
+# for key in counts :
+#     print('This is the key: ', key, '. This is the count: ', counts[key])
+    
+#4:50:00 Retrieving lists of keys and values
+# print(list(counts))
+# print(counts.keys())
+# print(counts.values())
+# print(counts.items())   #both keys and values
 
+#4:51:27 Bonus! Two Iteration Variables
+# jjj = {'Finn' : 5, 'Freya' : 3.5, 'Ben' : 40}
+# for aaa, bbb in jjj.items() :
+#     print(aaa, bbb)
+
+#4:53:13 Read a file and count all the words - deja vue - no doubt with pluses!!
+#THE PATTERN...
+name = input('Enter file: ')
+handle open(name)
+
+counts = dict()
+for line in handle :
+    words = line.split()
+    for word in words :
+        counts[word] = counts.get(word, 0) + 1
+#basic histogram created, next reveals biggest counts     
+bigcount = None
+bigword = None
+for word, count in counts.items() :
+    if bigcount is None or count > bigcount :
+        bigword = word
+        bigcount = count
+        
+print(bigword, bigcount)
 
