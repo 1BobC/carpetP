@@ -380,22 +380,22 @@
 
 #4:53:13 Read a file and count all the words - deja vue - no doubt with pluses!!
 #THE PATTERN...
-name = input('Enter file: ')
-handle open(name)
+# name = input('Enter file: ')
+# handle open(name)
 
-counts = dict()
-for line in handle :
-    words = line.split()
-    for word in words :
-        counts[word] = counts.get(word, 0) + 1
-#basic histogram created, next reveals biggest counts     
-bigcount = None
-bigword = None
-for word, count in counts.items() :
-    if bigcount is None or count > bigcount :
-        bigword = word
-        bigcount = count
+# counts = dict()
+# for line in handle :
+#     words = line.split()
+#     for word in words :
+#         counts[word] = counts.get(word, 0) + 1
+# #basic histogram created, next reveals biggest counts     
+# bigcount = None
+# bigword = None
+# for word, count in counts.items() :
+#     if bigcount is None or count > bigcount :
+#         bigword = word
+#         bigcount = count
         
-print(bigword, bigcount)
+# print(bigword, bigcount)
 #See funfte.py for practice attempts
 
