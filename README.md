@@ -55,3 +55,5 @@ First Python exercises
 "Summary Ch9 Dictionaries, what is a collection?, hashing and lack of order, lists v dictionaries, writing dictionary loops, dictonary constants, sneek-peek tuples, the most common word, sorting dictionaries, using the get() method."
 "See funfte file for attempts on THE PATTERN"
 "Continuing with Counting Word Frequency using a Dictionary in funfte.py at 4:57:40"
+"Continuing with Counting Word Frequency using a Dictionary in funfte.py to 5:15:00"
+"Back to dritte for Tuple at 5:23:00"

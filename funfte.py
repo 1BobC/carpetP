@@ -58,7 +58,7 @@ for lin in fhand:
         # di[w] = newcount
         #print(w, 'Newcount', newcount)
         di[w] = di.get(w, 0) + 1         #2nd this code also replaces oldcount etc above idom: retrieve/create/update counter
-        print(w, 'Newcount', di[w])
+        print(w, 'Newcount', di[w])      #now at 5:15:00
         # if w in di :                          #1st this code replaced by oldcount etc above
         #     di[w] = di[w] + 1
         #     print('*** Already in dic ***')
@@ -66,5 +66,7 @@ for lin in fhand:
         #     di[w] = 1
         #     print('*** New in dic ***')
         # print(w, di[w])
-print(di)        
+print(di)    
+
+#back to dritte for Tuples at 5:23:00                                  
         

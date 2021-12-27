@@ -399,3 +399,5 @@
 # print(bigword, bigcount)
 #See funfte.py for practice attempts
 
+#from funfte practise onto Tuple at 5:23:00 
+
