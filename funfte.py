@@ -18,6 +18,8 @@
         
 # print(bigword, bigcount)
 
+#THE PATTERN practise...
+
 # fname = input('Enter file: ')       #works ok for clown.txt and words.txt
 # fhand = open(fname)
 

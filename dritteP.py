@@ -399,5 +399,87 @@
 # print(bigword, bigcount)
 #See funfte.py for practice attempts
 
-#from funfte practise onto Tuple at 5:23:00 
+#5:23:00 from funfte practise onto Tuple (here) at dritte 
+#Tuples are similar to a list but with parenthesis not squaries and are immutable
+#and functions that work with lists work with tuples
+# x = ('Bob', 'June', 'Kelly', 'Shona')
+# print(x[2])
+# y = (2, 7, 92, 4, 6, 1)
+# print(y)
+# print('Max in y is: ', max(y))               #remember parenthesis' not squaries!
+# for iter in y :
+#     print('Iterating y: ', iter)
+    
+#Immutability - like strings, but not like lists
+#Why immutable? Because this makes them more efficient. IE faster.
+#List is mutable
+# x = [9, 29, 43, 7]
+# print('Print list x: ', x)
+# x[2] = 6
+# print('Print list x with 6 instead of 43: ', x)
+#String is immutable
+# y = 'ABC'
+# print('Print string y', y)
+# y[2] = 'D'
+# print('Print string with D instead of C')
+#Tuple is immutable
+# z = (34, 67, 87, 49)
+# print('Print tuple z: ', z)
+# z[2] = 1000
+# print('Print tuple z with 1000 instead of 87: ', z)
+
+#Also do nots for tuples - sort(), append(), reverse() 
+#see 5:26:37 for tuple do/dont breakdown
+#NOW - tuples can be put on the left-hand side of an assingment statement
+# (x, y) = (4, 'bob')
+# print(y) 
+# (t, u) = ('june', 8)
+# print(t)
+
+#5:28:54 tuples and dictionaries 
+# d = dict()
+# d['BobC'] = 10
+# d['JuneC'] = 25
+# for (k, v) in d.items() :
+#     print(k, v)
+    
+# tups = d.items()
+# print(tups)
+
+#5:30:23 Tuples are Comparable
+# x = ('bob', 'june') 
+# y =  ('june', 'bob')
+# v = (21, 0, 0)
+# w = (20, 0, 0)
+# print(x < y)
+# print(('bob', 'june') > ('june', 'bob'))
+# print(v > w)
+# print((21, 0, 0) < (20, 0, 0))
+
+#5:33:07 Sorting lists of tuples in order to sort a dictionary
+#first sort dic with items( and sorted (
+# d = {'a':101, 'd':203, 'b':82, 'e':400, 'c':39}
+# print(d.items())
+# print(sorted(d.items()))
+#more directly
+# t = sorted(d.items())
+# #print(t)
+# print('When d is sorted...')
+# for k, v in sorted(d.items()) :   
+#     print('The Key is:  ', k, 'The Value is:  ', v)
+   
+#5:37:05 Now... sort by value instead of key (to eg. find the most common word) with a for loop
+# c = {'a':101, 'd':203, 'b':82, 'e':400, 'c':39}
+# print(c)
+# tmp =   list()
+# for k, v in c.items() :
+#     tmp.append((v, k))
+#check out these print statements if they are auto indented
+# print(tmp)
+# tmp = sorted(tmp, reverse = True)
+# print(tmp)
+
+#5:39:00 OK now for sorting words... eg the top 10 most common words
+
+
 
