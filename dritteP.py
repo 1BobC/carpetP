@@ -379,7 +379,7 @@
 #     print(aaa, bbb)
 
 #4:53:13 Read a file and count all the words - deja vue - no doubt with pluses!!
-#THE PATTERN...
+#THE PATTERN... IDIOM!
 # name = input('Enter file: ')
 # handle open(name)
 
