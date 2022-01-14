@@ -58,3 +58,4 @@ First Python exercises
 "Continuing with Counting Word Frequency using a Dictionary in funfte.py to 5:15:00"
 "Back to dritte for Tuple at 5:23:00"
 "From 5:23:00 Parenthesis not Squaries, Immutable, Three do nots, use with dictionaries, Comparable, To 5:37:05 Sorting k&v, v&k, "
+"Pracitse Idiom1 in funfte with printout and video"

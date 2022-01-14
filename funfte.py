@@ -18,8 +18,9 @@
         
 # print(bigword, bigcount)
 
-#THE PATTERN / IDIOM  practise... (4:53:13 explaining THE PATTERN)
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
+#THE PATTERN / IDIOM  practise... (4:53:13 explaining THE PATTERN)
 # fname = input('Enter file: ')       #works ok for clown.txt and words.txt
 # fhand = open(fname)
 
@@ -38,6 +39,8 @@
 #          bigcount = count
         
 # print('The bigword is: ', bigword, ' The bigcount is: ', bigcount)        
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 #Continuing at 4:57:40 with Counting Word Frequency using a Dictionary in funfte.py
 # fname = input('Enter filename: ')
@@ -120,20 +123,30 @@ for lin in ffa :
     #print(lin)
     
     lin = lin.rstrip()
-    print(lin)
+    #print(lin)
 
     wds = lin.split()
     #print(wds)
     
     for w in wds :
-        #print(w)
+        print(w)
         #print('Does only default show up?  ',w, tots.get(w, -99))
         
         if w in tots :
-            tots[w] = tots[w] + 1
-            
-            
+            tots[w] = tots[w] + 1           
         else :
             tots[w] = 1
-        
+#
 print(tots)
+
+#now onto word with biggest number
+bigcount = None
+bigword = None
+for w, tot in tots.items() :
+    if bigcount is None or tot > bigcount :
+        bigword = w
+        #print(bigword)
+        bigcount = tot
+        #print(bigcount)
+print('The bigword is: ', bigword, 'The big count is: ', bigcount)
+    
