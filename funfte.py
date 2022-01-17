@@ -112,41 +112,77 @@
 # print(di)
     
 
-#AND ANOTHER PRACTISE THIS TIME WITH NOTES AND VIDEO EXPLANATION - Wow am impressing myself!
+#AND ANOTHER PRACTISE THIS TIME READING NOTES AND WATCHING VIDEO EXPLANATION - Wow am impressing myself!
 
-fname = input('Enter a filename')
-if len(fname) < 1 : fname = 'intro-short.txt'
-ffa = open(fname)
+# fname = input('Enter a filename')
+# if len(fname) < 1 : fname = 'intro-short.txt'
+# ffa = open(fname)
 
-tots = dict()
-for lin in ffa :
-    #print(lin)
+# tots = dict()
+# for lin in ffa :
+#     #print(lin)
     
+#     lin = lin.rstrip()
+#     #print(lin)
+
+#     wds = lin.split()
+#     #print(wds)
+    
+#     for w in wds :
+#         print(w)
+#         #print('Does only default show up?  ',w, tots.get(w, -99))
+        
+#         if w in tots :
+#             tots[w] = tots[w] + 1           
+#         else :
+#             tots[w] = 1
+# #
+# print(tots)
+
+# #now onto word with biggest number
+# bigcount = None
+# bigword = None
+# for w, tot in tots.items() :
+#     if bigcount is None or tot > bigcount :
+#         bigword = w
+#         #print(bigword)
+#         bigcount = tot
+#         #print(bigcount)
+# print('The bigword is: ', bigword, 'The big count is: ', bigcount)
+    
+#NOW DO IT AGAIN !
+#name a file
+fname = input('Enter a file name:  ')
+if len(fname) < 1 : fname = 'clown.txt'
+#open it
+fhand = open(fname)
+#create dictionary
+counts = dict()
+#lines (for statement)
+for lin in fhand :
+    #print(lin)
+#lines strip right
     lin = lin.rstrip()
     #print(lin)
-
+#split words
     wds = lin.split()
     #print(wds)
-    
+#word count
     for w in wds :
-        print(w)
-        #print('Does only default show up?  ',w, tots.get(w, -99))
-        
-        if w in tots :
-            tots[w] = tots[w] + 1           
+        #print(w)
+        if w in counts :
+            counts[w] = counts[w] + 1
         else :
-            tots[w] = 1
-#
-print(tots)
-
-#now onto word with biggest number
+            counts[w] = 1
+#print(counts)
+#variables big count & word
 bigcount = None
 bigword = None
-for w, tot in tots.items() :
-    if bigcount is None or tot > bigcount :
-        bigword = w
-        #print(bigword)
-        bigcount = tot
-        #print(bigcount)
-print('The bigword is: ', bigword, 'The big count is: ', bigcount)
+#for statement
+for w, count in counts.items() :
+    if bigcount is None or count > bigcount :
+        bigword = w 
+        bigcount = count
+print('The bigword is: ', bigword, ' ', 'The bigcount is: ', bigcount)
     
+
