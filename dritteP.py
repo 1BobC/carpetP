@@ -459,27 +459,70 @@
 #5:33:07 Sorting lists of tuples in order to sort a dictionary
 #first sort dic with items( and sorted (
 # d = {'a':101, 'd':203, 'b':82, 'e':400, 'c':39}
-# print(d.items())
-# print(sorted(d.items()))
-#more directly
-# t = sorted(d.items())
+# #print(d.items())
+# for k, v, in d.items() :
+#     print ('The key is: ', k, ' ', 'The Value is: ', v)
+# #print(sorted(d.items()))
+# #more directly
+# #t = sorted(d.items())
 # #print(t)
 # print('When d is sorted...')
 # for k, v in sorted(d.items()) :   
-#     print('The Key is:  ', k, 'The Value is:  ', v)
+#     print('The Key is: ', k, ' ', 'The Value is: ', v)
    
 #5:37:05 Now... sort by value instead of key (to eg. find the most common word) with a for loop
-# c = {'a':101, 'd':203, 'b':82, 'e':400, 'c':39}
-# print(c)
+# c = {'a':101, 'd':203, 'f':400, 'b':82, 'e':400, 'c':39, 'g':400}
+# #print(c)
 # tmp =   list()
 # for k, v in c.items() :
 #     tmp.append((v, k))
-#check out these print statements if they are auto indented
+# #check out these print statements for indentations
 # print(tmp)
 # tmp = sorted(tmp, reverse = True)
 # print(tmp)
 
 #5:39:00 OK now for sorting words... eg the top 10 most common words
+#name a file
+# fname = input('Enter a filename: ')
+# if len(fname) < 1 : fname = 'romeo.txt'
+# #open file
+# fhand = open(fname)
+# #create dictionary
+# counts = dict()
+# #get lines, use for stmnt
+# for lin in fhand :
+# #extra line of code here 
+#     lin = lin.rstrip()
+# #get wds
+#     wds = lin.split()
+#     #print(wds)
+# #wd count
+#     for w in wds :
+# #code condenses to 
+#         counts[w] = counts.get(w, 0) + 1
+#         #print(w, counts[w])                #two print commands illustrating indentation differences
+# #print(counts)
+# #Now to create list and reverse k and v
+# lst = list()
+# for key, val in counts.items() :
+#     newtup = (val, key)
+#     lst.append(newtup)
+# print(lst)                                  #again print command indentations give different results
+# lst = sorted(lst, reverse = True)
+# print(lst)
+
+# #find top 10 most common words      
+# for val, key in lst [:10] :
+#     print(key, val)
+#Continue at 5:41:00
+#The code above is a procedural algorthmic and data structure approach to solving this problem
+#The following code line does all that lst = ... print(lst) does
+#It uses List Comprehension to create a dynamic list. 
+#In this case we make a list of reversed tuples and then sort it
+c = {'a':21, 'g':12, 'e':34, 'c':9, 'b':76, 'u':5}
+print(sorted([(v, k) for k, v in c.items() ]))
+    
+    
 
 
 
