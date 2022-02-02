@@ -519,10 +519,42 @@
 #The following code line does all that lst = ... print(lst) does
 #It uses List Comprehension to create a dynamic list. 
 #In this case we make a list of reversed tuples and then sort it
-c = {'a':21, 'g':12, 'e':34, 'c':9, 'b':76, 'u':5}
-print(sorted([(v, k) for k, v in c.items() ]))
+# c = {'a':21, 'g':12, 'e':34, 'c':9, 'b':76, 'u':5}
+# print(sorted([(v, k) for k, v in c.items() ]))
+
+#From 5:44:32 Tuples used to sort dictionaries by value (instead of by key)
+#Use The Pattern and The Idiom also txt files clown and intro
+fname = input('Enter filename: ')
+if len(fname) < 1 : fname = 'clown.txt' 
+fhand = open(fname)
+
+di = dict()
+for lin in fhand:
+
+    lin = lin.rstrip()
+
+    wds = lin.split()    
+
+    for w in wds :
+
+        di[w] = di.get(w, 0) + 1        #The Idiom
     
+#print(di)
+
+# x = sorted(di.items())                #used as demo earlier
+# print(x[:5])
+
+#hand construct list
+temp = list()
+for k, v, in di.items() :
+    #print(k, v)
+    newt = (v, k)
+    temp.append(newt)
+#print(temp)
+
+temp = sorted(temp, reverse = True)
+#print('Top 5 Sorted in reverse', temp[:5])
+for v, k in temp[:5] :
+    print(k, v)
     
-
-
-
+#5:15:19 Ch11 start regular expressions
