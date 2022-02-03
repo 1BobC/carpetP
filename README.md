@@ -60,4 +60,5 @@ First Python exercises
 "From 5:23:00 Parenthesis not Squaries, Immutable, Three do nots, use with dictionaries, Comparable, To 5:37:05 Sorting k&v, v&k, "
 "Pracitse Idiom1 in funfte with printout and video"
 "Tuples to 5:44:32  Summary Tuples"
-"5:15:19 Ch11 start regular expressions"
+"5:55:19 Ch11 start regular expressions"
+"Time should be 5:55:19

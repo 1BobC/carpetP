@@ -553,8 +553,8 @@ for k, v, in di.items() :
 #print(temp)
 
 temp = sorted(temp, reverse = True)
-#print('Top 5 Sorted in reverse', temp[:5])
+print('Top 5 Sorted in reverse', temp[:5])
 for v, k in temp[:5] :
     print(k, v)
     
-#5:15:19 Ch11 start regular expressions
+#5:55:19 Ch11 start regular expressions
