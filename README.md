@@ -61,4 +61,5 @@ First Python exercises
 "Pracitse Idiom1 in funfte with printout and video"
 "Tuples to 5:44:32  Summary Tuples"
 "5:55:19 Ch11 start regular expressions"
-"Time should be 5:55:19
+"Time should be 5:55:19"
+"RE's continue from 6:10:20
