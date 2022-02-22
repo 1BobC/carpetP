@@ -62,4 +62,4 @@ First Python exercises
 "Tuples to 5:44:32  Summary Tuples"
 "5:55:19 Ch11 start regular expressions"
 "Time should be 5:55:19"
-"RE's continue from 6:10:20
+"RE's continued from 6:10:20 and have worked to 6:14:06 String parsing examples"

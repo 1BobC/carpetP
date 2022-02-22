@@ -524,37 +524,71 @@
 
 #From 5:44:32 Tuples used to sort dictionaries by value (instead of by key)
 #Use The Pattern and The Idiom also txt files clown and intro
-fname = input('Enter filename: ')
-if len(fname) < 1 : fname = 'clown.txt' 
-fhand = open(fname)
+# fname = input('Enter filename: ')
+# if len(fname) < 1 : fname = 'clown.txt' 
+# fhand = open(fname)
 
-di = dict()
-for lin in fhand:
+# di = dict()
+# for lin in fhand:
 
-    lin = lin.rstrip()
+#     lin = lin.rstrip()
 
-    wds = lin.split()    
+#     wds = lin.split()    
 
-    for w in wds :
+#     for w in wds :
 
-        di[w] = di.get(w, 0) + 1        #The Idiom
+#         di[w] = di.get(w, 0) + 1        #The Idiom
     
 #print(di)
 
 # x = sorted(di.items())                #used as demo earlier
 # print(x[:5])
 
-#hand construct list
-temp = list()
-for k, v, in di.items() :
-    #print(k, v)
-    newt = (v, k)
-    temp.append(newt)
-#print(temp)
+# #hand construct list
+# temp = list()
+# for k, v, in di.items() :
+#     #print(k, v)
+#     newt = (v, k)
+#     temp.append(newt)
+# #print(temp)
 
-temp = sorted(temp, reverse = True)
-print('Top 5 Sorted in reverse', temp[:5])
-for v, k in temp[:5] :
-    print(k, v)
+# temp = sorted(temp, reverse = True)
+# print('Top 5 Sorted in reverse', temp[:5])
+# for v, k in temp[:5] :
+#     print(k, v)
     
 #5:55:19 Ch11 start regular expressions
+#6:05:30 From Matching to Extracting using the RE library
+
+# import re
+# x = 'Are my 2 favOUrItE numbers rounded up in 19 and 42?'
+# #y = re.findall('[0-9]+',x) 
+# y = re.findall('[AEIOU]+',x)                #this finds something different
+# #y= re.findall('[aeiou]',x)                  #this finds something else
+# print(y)
+
+#Greedy matching
+# import re 
+# x = 'From: Using the : character'
+# y = re.findall('^F.+:', x)
+# print(y)                            #Why not 'From:' as an answer?
+
+#Change search to Non-greedy matching
+# import re 
+# x = 'From: Using the : character'
+# y = re.findall('^F.+?:', x)
+# print(y)                            #Answer becomes 'From:' - non-greedy
+
+#Fine tuning string extraction
+# import re
+# x = 'From stephen.mquard@.ac.za Sat Jan  5 09:14:16 2008'
+# #y = re.findall('^From \S+@\S+', x)
+# y = re.findall('^From (\S+@\S+)', x)
+# print(y)
+
+#to: 6:14:06 String parsing examples
+#Double split pattern.
+
+#The Regex version.
+
+#Even cooler Regex version.

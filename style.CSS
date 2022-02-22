@@ -13,8 +13,10 @@ p{
     text-align: center;
     color: cadetblue;
     font-size: 1.1em;
+    font-family: Courier;
 }
 li{
     text-align: center;
     color: darkslategray;
+    font-family: Courier;
 }
