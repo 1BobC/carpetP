@@ -63,3 +63,4 @@ First Python exercises
 "5:55:19 Ch11 start regular expressions"
 "Time should be 5:55:19"
 "RE's continued from 6:10:20 and have worked to 6:14:06 String parsing examples"
+"6:22:26 Summary REs match strings and removing expressions using special characters which express intent" 

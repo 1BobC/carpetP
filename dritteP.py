@@ -592,3 +592,27 @@
 #The Regex version.
 
 #Even cooler Regex version.
+
+#Spam confidence
+# import re
+# hand = open("mbox-short.txt")
+# numlist = list()
+# for line in hand :
+#     line = line.rstrip()
+#     stuff = re.findall('^X-DSPAM-Confidence: ([0-9.]+)', line)
+#     if len(stuff) != 1 : continue
+#     num = float(stuff[0])
+#     numlist.append(num)
+#     # print('Number list:', (numlist)) 
+#     print('Maximum:', max(numlist))
+
+#Use escape character \ with special character (also default is greedy matching) 
+import re
+x = 'The boss gave us $10.00 to buy morning tea and we put another $5.00 in.'
+y = re.findall('\$[0-9.]+', x)
+print(y)
+#This only seems to work with special character $
+
+
+
+    
