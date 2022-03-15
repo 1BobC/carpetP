@@ -65,3 +65,4 @@ First Python exercises
 "RE's continued from 6:10:20 and have worked to 6:14:06 String parsing examples"
 "6:22:26 Summary REs match strings and removing expressions using special characters which express intent" 
 "Start 6:22:43 Networked programs ch 12 - 6:28:30 Support code for Sockets in Python"
+"Socket connection notes and application protocols code examples in sechste file"
