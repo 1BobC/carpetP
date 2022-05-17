@@ -66,3 +66,4 @@ First Python exercises
 "6:22:26 Summary REs match strings and removing expressions using special characters which express intent" 
 "Start 6:22:43 Networked programs ch 12 - 6:28:30 Support code for Sockets in Python"
 "Socket connection notes and application protocols code examples in sechste file"
+"6:27:48 Python Talking to Sockets - Yes! Do it"
