@@ -67,3 +67,4 @@ First Python exercises
 "Start 6:22:43 Networked programs ch 12 - 6:28:30 Support code for Sockets in Python"
 "Socket connection notes and application protocols code examples in sechste file"
 "6:27:48 Python Talking to Sockets - Yes! Do it"
+"6:37:32 Recognised CL hack via telnet, I tried it! Continue from there"
